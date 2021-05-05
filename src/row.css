@@ -1,0 +1,40 @@
+.row {
+  color: #fff;
+  margin-left: 10px;
+}
+.eachRow {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  margin: 0 14px 0 10px;
+  height: 180px;
+}
+.eachRow::-webkit-scrollbar {
+  display: none;
+}
+.eachRow {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.eachRowLarge {
+  height: 300px !important;
+}
+.image-container {
+  margin: 0 7px;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  transition: transform 450ms;
+}
+.image-large {
+  width: 150px;
+  border-radius: 10px;
+  transition: transform 650ms;
+}
+.image:hover {
+  transform: scale(1.2);
+}
+.image-large:hover {
+  transform: scale(1.15);
+}

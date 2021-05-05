@@ -1,0 +1,37 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    transition: all 0.7s ease-in;
+}
+.nav_black {
+    background: #111;
+}
+.logo {
+    left: 0;
+    object-fit: contain;
+}
+.btn {
+    right: 0;
+    object-fit: contain;
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem 2rem;
+    border-radius: 0.3rem;
+    font-weight: 700;
+    color: #fff;
+    background: #000000b3;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.btnStyleChange {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  /* color: rgba(0, 0, 0, 0.87); */
+}
